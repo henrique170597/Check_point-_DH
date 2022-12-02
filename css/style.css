@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background: #220000;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    z-index: 1;
+    top: 0px;
+    padding: 5px;
+    display: flex;
+
+}
+
+#logo-estado {
+    position: absolute;
+    width: 20%;
+    height: 20¢;
+    left: 122px;
+    top: 12px;
+}
+
+.menu button {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background: #C4C4C4;
+    width: 190px;
+    height: 50px;
+    cursor: point;
+    outline: none;
+    padding: 15px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 25px;
+}
+
+.Bandeira-do-Maranhao {
+    width: 40%;
+    height: 40%;
+    border-radius: 10%;
+
+}
+
+header .menu {
+    margin-left: 40%;
+}
+
+
+
+.img-body {
+    width: 100%;
+    height: 532px;
+
+}
+
+body {
+    background-image: url(../img/Chapada-das-Mesas.jpg);
+    background-size: cover;
+}
+
+
+.card-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+h2 {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    margin-left: 320px;
+    margin-top: 80px;
+    position: absolute;
+    color: #000000;
+
+}
+
+.card {
+
+    width: 280px;
+    height: 450px;
+    background: #C4C4C4;
+    border-radius: 31px;
+    display: flex;
+    position: relative;
+    margin: 20px;
+    align-items: center;
+
+
+
+}
+
+.card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
+
+
+.card {
+    transition: all .5s;
+    border: 10px solid #eeeeee;
+}
+
+.card:hover {
+    border: 10px solid #2197ba;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.video-container {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.video-container iframe {
+    border-radius: 31px;
+    background: #C4C4C4;
+    
+
+}
+
+footer {
+    background-image: url(../img/fotofooter.png);
+    background-size: cover;
+    width: 100%;
+    height: 314px;
+    position: absolute;
+    top: 2000px;
+}
+
+.links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.linkedin {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin: 100px;
+}
+
+.github {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin: 100px;
+}
+
+.icon-linkedin {
+    width: 100px;
+    height: 80%;
+    border-radius: 50%;
+}
+
+
+.icon-Git {
+    width: 150px;
+    height: 80%;
+    border-radius: 50%;
+}
+
+footer p a {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+}
+
